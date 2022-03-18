@@ -5,5 +5,5 @@
 Docker image
 * Ubuntu 20.04
 * Node.js v14 + NPM + Yarn
-* PHP 8.0.16 + Composer
+* PHP 8.0.17 + Composer
 * Google Chrome
