@@ -8,7 +8,7 @@ updates:
       actions-docker:
         patterns:
         - "docker/*"
-        - "peter-evans/dockerhub-description
+        - "peter-evans/dockerhub-description"
       actions-patch:
         patterns:
         - "*"
