@@ -5,7 +5,7 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      docker-action:
+      actions-docker:
         patterns:
         - "docker/*"
         - "peter-evans/dockerhub-description
