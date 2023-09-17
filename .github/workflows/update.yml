@@ -25,7 +25,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5.0.2
         with:
             token: ${{ secrets.PAT }}
-            commit-message: 'PHP ${{steps.version.outputs.prop}}'
+            commit-message: 'PHP ${{steps.php.outputs.version}}'
             committer: 'Nikolas Evers <vintagesucks@users.noreply.github.com>'
             branch: 'php-${{steps.php.outputs.version}}'
             delete-branch: true
